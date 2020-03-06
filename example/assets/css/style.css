@@ -1,0 +1,125 @@
+.tableofcontent {
+	margin-bottom: 15px;
+}
+.home ul {
+	display: inline-block;
+}
+.card-body, .card-body > .list-group > .list-group-item{
+	background-color: transparent;
+	border: none;
+}
+.row > label {
+	margin-left: auto;
+    margin-right: auto;
+}
+.btn-danger, .btn-success  {
+    -webkit-text-stroke-color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.success {
+	color: green;
+    -webkit-text-stroke-color: green;
+}
+.fail {
+	color: red;
+    -webkit-text-stroke-color: red;
+}
+
+a , a:link , a:visited, a:hover, a:active {
+	text-decoration: none;
+	color: inherit;
+    -webkit-text-stroke-color: inherit;
+}
+.btn , .btn:link , .btn:visited, .btn:hover, .btn:active {
+    -webkit-text-stroke-color: black;
+	color: black;
+}
+body {
+    font-family: 'Nunito';
+    letter-spacing: 0.0625em;
+	text-transform: uppercase;
+	
+	background: url("../img/bg-masthead.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+	
+	text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+}
+.error {
+	margin-left: auto;
+    margin-right: auto;
+	-webkit-text-stroke-color: red;
+	color: red;
+}
+.paginate_button {
+	padding:0px 15px;
+}
+.dataTables_paginate {
+	margin:0px 15px;
+	text-align: center;
+}
+input, textarea, select {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  height: auto;
+  font-family: 'Varela Round';
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+  width: 100%;
+  margin-bottom:20px;
+}
+.form-wrapper {
+	max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+.row {
+	margin:0;
+}
+.navbar-nav {
+	margin-right: auto;
+    margin-left: auto;
+}
+.content {
+	text-align:center;
+}
+.dataTables_wrapper .dataTables_filter input {
+    margin-right: 0.5em;
+}
+.table tr {
+	background-color: rgba(100,100,100,.5) !important;
+}
+.table tbody tr:hover , .table tbody tr:hover a:visited {
+	background-color: black !important;
+	
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+	text-shadow: none;
+}
+.table thead , .navbar-nav a{
+	
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+.navbar-nav a{
+	font-size:22px;
+}
+
+
+
+
+
+
+
+
+
+
+
